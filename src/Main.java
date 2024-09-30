@@ -9,7 +9,7 @@ public class Main {
         // Crea una instancia de la clase Empresa, que manejará los productos y usuarios
         Empresa empresa = new Empresa();
 
-        // Agrega productos predeterminados al inventario de la empresa
+        // Agrega productos predeterminados al inventario de la empresa.
         try {
             empresa.agregarProducto(new Telas(50.0, "T001", "Tela A", "Rojo", "Alta", "Algodón", "Liso", "Baja"));
             empresa.agregarProducto(new Telas(60.0, "T002", "Tela B", "Azul", "Media", "Poliéster", "Tejido", "Media"));
